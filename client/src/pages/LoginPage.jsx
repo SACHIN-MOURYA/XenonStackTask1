@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom"
 const BASEURL = process.env.REACT_APP_BASE_URL;
 
 const LoginPage = () => {
+  //  console.log("url",BASEURL)
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -18,7 +19,7 @@ const LoginPage = () => {
 
     try {
 
-      const response = await fetch ("${BASEURL}/auth/login", {
+      const response = await fetch(`${BASEURL}/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -40,7 +41,7 @@ const LoginPage = () => {
         const user = JSON.stringify(loggedIn.user)
         localStorage.setItem("user", user) 
         console.log("Login successful "+loggedIn.user)
-        navigate("/home")
+        navigate("/")
       }
 
     } catch (err) {

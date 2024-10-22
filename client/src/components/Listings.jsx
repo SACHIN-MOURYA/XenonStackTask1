@@ -22,7 +22,7 @@ const Listings = () => {
       const response = await fetch(
         selectedCategory !== "All"
           ? `${BASEURL}/properties?category=${selectedCategory}`
-          : "${BASEURL}/properties",
+          : `${BASEURL}/properties`,
         {
           method: "GET",
         }
