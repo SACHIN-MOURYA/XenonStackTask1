@@ -11,11 +11,7 @@ The analysis leverages financial and real estate data to identify trends, predic
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Data](#data)
-- [Usage](#usage)
-- [Features](#features)
-- [Technical Stack](#technical-stack)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 
 ## Getting Started
