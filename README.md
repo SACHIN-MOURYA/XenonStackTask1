@@ -45,3 +45,6 @@ Urban Development Factors: Data related to infrastructure, amenities, and other 
 ### Screen shot
 - Login
 ![Login](https://github.com/user-attachments/assets/48410e01-4020-4f65-aad8-00d18652ed3c)
+
+-SignUp
+![SignUp](https://github.com/user-attachments/assets/e74e7171-12e7-4a68-ab28-6ebf99032197)
